@@ -17,6 +17,6 @@ while((isRunning) == "Yes"):
     my_file = open("kappa.txt","a")
     my_file.write((x) + "\n")
     my_file.close()
-    isRunning = str(input("Type Stop if you want this program to stop.(Caps matters. "))
+    isRunning = str(input("Type Yes if you want the program to keep going.(Caps matters. "))
 else:
     print("K cya")
